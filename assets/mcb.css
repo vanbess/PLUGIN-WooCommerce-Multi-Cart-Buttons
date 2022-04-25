@@ -1,0 +1,111 @@
+button.single_add_to_cart_button {
+    width: 48% !important;
+    margin-right: 0;
+    position: relative;
+    left: 0;
+}
+
+button#mcb_buy_now {
+    width: 48%;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    margin-right: 0px;
+    font-size: .97em;
+    letter-spacing: .03em;
+    line-height: 2.4em;
+    min-height: 2.5em;
+    position: relative;
+    left: 15px;
+    top: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button#sbwcmcb_buy_now_variable:hover, button#sbwcmcb_buy_now_simple:hover {
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+a#wobs_add_to_cart {
+    width: 48%;
+    display: inline-block;
+}
+
+button#upsell-v2-product-bundle-add-to-cart {
+    display: inline-block !important;
+    width: 48% !important;
+}
+
+button#upsell-v2-product-bundle-buy-now {
+    background: #000000;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 48%;
+    margin-right: 0;
+    margin-left: 0px;
+}
+
+.quantity {
+    display: flex;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 1366px){
+    button#mcb_buy_now {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1280px){
+    button#mcb_buy_now {
+        margin-left: 19px;
+    }
+}
+@media (max-width: 1024px){
+    button#mcb_buy_now {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 800px){
+    button#mcb_buy_now {
+        margin-left: 14px;
+    }
+}
+@media (max-width: 600px){
+    button#mcb_buy_now {
+        margin-left: 22px;
+    }
+    button#upsell-v2-product-bundle-buy-now {
+        margin-left: 0;
+        width: 100%;
+        font-size: 1em;
+        margin-top: 15px;
+    }
+    button#upsell-v2-product-bundle-add-to-cart {
+        width: 100% !important;
+    }
+}
+@media (max-width: 540px){
+	.single-product .mfp-container {
+		padding: 15px;
+	}
+    button#mcb_buy_now {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 480px){
+    button#mcb_buy_now {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 414px){
+    button#mcb_buy_now {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 375px){
+    button#mcb_buy_now {
+        margin-left: 0px;
+    }
+}
